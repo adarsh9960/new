@@ -100,16 +100,6 @@ export default function Home() {
         {/* Gallery Section */}
         <GallerySection images={galleryData.images} />
         
-        {/* Clients Section */}
-        <ClientsSection clients={partnersData.clients} />
-        
-        {/* Merged Excellence Section */}
-        <MergedExcellenceSection
-          testimonials={ratingsData.items}
-          averageRating={currentRating.average}
-          totalRatings={currentRating.count}
-        />
-        
         {/* Why Choose Us Section */}
         <WhyChooseUsSection features={pagesData.home.whyChooseUs.features} />
         
@@ -195,6 +185,14 @@ export default function Home() {
           </div>
         </section>
         
+        
+        {/* Merged Excellence Section */}
+        <MergedExcellenceSection
+          testimonials={ratingsData.items}
+          averageRating={currentRating.average}
+          totalRatings={currentRating.count}
+        />
+        
         {/* Rate Service Section */}
         <RateServiceSection
           onSubmit={handleRatingSubmit}
@@ -204,6 +202,9 @@ export default function Home() {
         {/* FAQ Section */}
         <FAQSection faqs={pagesData.home.faq.items} />
       </main>
+
+      {/* Clients Section */}
+        <ClientsSection clients={partnersData.clients} />
       
       <Footer rating={currentRating} />
       
