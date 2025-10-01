@@ -45,7 +45,7 @@ export default function WhyChooseUsSection({ features }: WhyChooseUsSectionProps
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Your Travel Partner Anytime, Anywhere
           </h2>
-          <p> we are here to serve you better
+          <p> Trusted between to make it more stronger for our branding.
             </p>
         </div>
 
