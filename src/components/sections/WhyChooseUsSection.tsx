@@ -88,22 +88,46 @@ export default function WhyChooseUsSection({ features }: WhyChooseUsSectionProps
               {/* WhatsApp CTA Buttons */}
               <div className="space-y-3">
                 <button
-                  onClick={() => handleWhatsAppClick("Get Quote - Local Rides")}
+                  onClick={() => handleWhatsAppClick("Local Rides")}
                   className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
                 >
-                  Get Quote - Local Rides
+                  Local Rides
                 </button>
                 <button
-                  onClick={() => handleWhatsAppClick("Get Quote - Outstation")}
+                  onClick={() => handleWhatsAppClick("Outstation Trip")}
                   className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
                 >
-                  Get Quote - Outstation
+                  Outstation Trip
                 </button>
                 <button
-                  onClick={() => handleWhatsAppClick("Get Quote - Corporate")}
+                  onClick={() => handleWhatsAppClick("Corporate Travel")}
                   className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
                 >
-                  Get Quote - Corporate
+                  Corporate Travel
+                </button>
+                <button
+                  onClick={() => handleWhatsAppClick("Wedding Reservation")}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
+                >
+                  Wedding Reservation
+                </button>
+                <button
+                  onClick={() => handleWhatsAppClick("Business Trip")}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
+                >
+                  Business Trip
+                </button>
+                <button
+                  onClick={() => handleWhatsAppClick("Luxury Travel")}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
+                >
+                  Luxury Travel
+                </button>
+                <button
+                  onClick={() => handleWhatsAppClick("One-Way Drop")}
+                  className="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 text-sm"
+                >
+                  One-Way Drop
                 </button>
               </div>
             </div>
