@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Clock, Shield, DollarSign, Users, Star, Phone } from 'lucide-react';
-import { useIntersectionObserver, useCountUp } from '@/hooks/useIntersectionObserver';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { buildWhatsApp } from '@/utils/whatsapp';
 
 interface Feature {
@@ -108,58 +108,6 @@ export default function WhyChooseUsSection({ features }: WhyChooseUsSectionProps
             
             {/* Hover Effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-green-5 to-primary/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-          </div>
-        </div>
-        
-        {/* Get Your Custom Quote Block */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-8 shadow-lg">
-            <div className="text-center">
-              <h3 className="text-2xl font-semibold text-foreground mb-4">
-                Get Your Custom Quote
-              </h3>
-              <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Ready to experience our premium service? Get a customized quote tailored to your specific needs and preferences.
-              </p>
-              
-              <div className="grid md:grid-cols-3 gap-4">
-                <button
-                  onClick={() => handleWhatsAppClick("Get Custom Quote - Local Rides")}
-                  className="bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 flex flex-col items-center space-y-2"
-                >
-                  <span className="text-lg">Local Rides</span>
-                  <span className="text-sm opacity-90">City travel & daily commutes</span>
-                </button>
-                
-                <button
-                  onClick={() => handleWhatsAppClick("Get Custom Quote - Outstation")}
-                  className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 flex flex-col items-center space-y-2"
-                >
-                  <span className="text-lg">Outstation</span>
-                  <span className="text-sm opacity-90">Long-distance travel & tours</span>
-                </button>
-                
-                <button
-                  onClick={() => handleWhatsAppClick("Get Custom Quote - Corporate")}
-                  className="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-200 flex flex-col items-center space-y-2"
-                >
-                  <span className="text-lg">Corporate</span>
-                  <span className="text-sm opacity-90">Business travel solutions</span>
-                </button>
-              </div>
-              
-              <div className="mt-6">
-                <p className="text-sm text-muted-foreground">
-                  Need immediate assistance? 
-                  <button 
-                    onClick={() => handleWhatsAppClick("Immediate Assistance Needed")}
-                    className="text-primary hover:underline ml-1"
-                  >
-                    Chat with us now
-                  </button>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
