@@ -94,7 +94,7 @@ export default function SightseeingSection({ places }: SightseeingSectionProps) 
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="bg-card rounded-lg p-8 shadow-lg">
             <h3 className="text-2xl font-semibold text-foreground mb-4 text-center">
-              Discover Mumbai with Elite Cabs
+              Discover Mumbai with us
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed text-center">
               Mumbai, the city of dreams, offers a perfect blend of history, culture, and modernity. 
