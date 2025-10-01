@@ -22,7 +22,7 @@ const structuredData = {
   "name": "Elite Cabs 24X7",
   "alternateName": "Elite Cabs Mumbai",
   "description": "Premium car rental service in Mumbai with professional drivers. 24X7 airport transfers, corporate travel, wedding & event transportation. Best cab service near me.",
-  "url": "https://elitecabmumbai.com",
+  "url": "https://elitecabsmumbai.com",
   "telephone": "+917021751691",
   "email": "contact.elitecabsmumbai@gmail.com",
   "address": {
@@ -120,7 +120,7 @@ const structuredData = {
   "availableChannel": {
     "@type": "ServiceChannel",
     "name": "Customer Service",
-    "serviceUrl": "https://elitecabmumbai.com",
+    "serviceUrl": "https://elitecabsmumbai.com",
     "servicePhone": "+917021751691",
     "availableLanguage": ["Hindi", "English", "Marathi"]
   },
@@ -135,7 +135,7 @@ const taxiServiceSchema = {
   "@type": "TaxiService",
   "name": "Elite Cabs 24X7",
   "description": "Premium taxi service in Mumbai offering 24X7 cab service near me with professional drivers.",
-  "url": "https://elitecabmumbai.com",
+  "url": "https://elitecabsmumbai.com",
   "telephone": "+917021751691",
   "serviceType": "Taxi Service",
   "provider": {
@@ -185,7 +185,7 @@ export const metadata: Metadata = {
   creator: "ITZ Adarsh",
   publisher: "Elite Cabs 24X7",
   formatDetection: metaContent.meta.formatDetection,
-  metadataBase: new URL('https://elitecabmumbai.com'),
+  metadataBase: new URL('https://elitecabsmumbai.com'),
   alternates: {
     canonical: metaContent.links.canonical,
   },
