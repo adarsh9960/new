@@ -1,66 +1,72 @@
 {
   "count": 28593,
   "average": 4.8,
-  "items": [
+ "items": [
     {
       "id": 1,
-      "name": "Rahul Sharma",
+      "name": "John Smith",
       "rating": 5,
       "comment": "Excellent service! Very professional and punctual."
     },
     {
       "id": 2,
-      "name": "Priya Patel",
-      "rating": 4,
-      "comment": "Good experience, driver was courteous and vehicle was clean."
+      "name": "Emily Johnson",
+      "rating": 5,
+      "comment": "Best cab service — highly recommended!"
     },
     {
       "id": 3,
-      "name": "Amit Kumar",
-      "rating": 5,
-      "comment": "Best cab service in Mumbai. Highly recommended!"
-    },
-    {
-      "id": 4,
-      "name": "Sneha Reddy",
-      "rating": 4,
-      "comment": "Comfortable ride and reasonable pricing."
-    },
-    {
-      "id": 5,
-      "name": "Vikram Singh",
+      "name": "Michael Brown",
       "rating": 5,
       "comment": "Outstanding service, will definitely use again."
     },
     {
-      "id": 6,
-      "name": "Anita Desai",
+      "id": 4,
+      "name": "Sarah Davis",
       "rating": 5,
       "comment": "Luxury vehicles and professional drivers. Perfect for special occasions."
     },
     {
-      "id": 7,
-      "name": "Rajesh Mehta",
-      "rating": 4,
-      "comment": "Reliable service with competitive pricing."
-    },
-    {
-      "id": 8,
-      "name": "Kavita Nair",
+      "id": 5,
+      "name": "David Wilson",
       "rating": 5,
       "comment": "Outstanding customer service and punctuality."
     },
     {
-      "id": 9,
-      "name": "Sanjay Gupta",
-      "rating": 4,
-      "comment": "Clean cars and professional drivers. Will use again."
-    },
-    {
-      "id": 10,
-      "name": "Deepa Joshi",
+      "id": 6,
+      "name": "Laura Martinez",
       "rating": 5,
       "comment": "Exceptional service for our corporate event."
-    }
-  ]
+    },
+   {
+    "id": 7,
+    "name": "Olivia Taylor",
+    "rating": 5,
+    "comment": "Smooth booking process and great communication throughout."
+  },
+  {
+    "id": 8,
+    "name": "Daniel Anderson",
+    "rating": 5,
+    "comment": "Impressed with the punctuality and overall professionalism."
+  },
+  {
+    "id": 9,
+    "name": "Sophia Clark",
+    "rating": 5,
+    "comment": "The car was spotless and the ride was extremely comfortable."
+  },
+  {
+    "id": 10,
+    "name": "James Thompson",
+    "rating": 5,
+    "comment": "Fantastic experience — quick response and very reliable service."
+  },
+  {
+    "id": 11,
+    "name": "Isabella Lewis",
+    "rating": 5,
+    "comment": "Truly outstanding! Will definitely book again for future travel."
+  }
+ ]
 }
