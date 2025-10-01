@@ -177,20 +177,6 @@ export default function HowItWorksSection({ steps }: HowItWorksSectionProps) {
                 Whether you need a quick ride across town or a planned outstation trip, 
                 we're here to serve you 24 hours a day, 7 days a week.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button 
-                  className="btn-water bg-primary text-primary-foreground border-primary hover:bg-primary/90"
-                  onClick={createRipple}
-                >
-                  <span className="label">Book Now</span>
-                </button>
-                <button 
-                  className="btn-water bg-secondary text-secondary-foreground border-secondary hover:bg-secondary/90"
-                  onClick={createRipple}
-                >
-                  <span className="label">Call Us</span>
-                </button>
-              </div>
             </div>
           </div>
         </div>
