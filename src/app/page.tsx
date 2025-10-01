@@ -192,6 +192,9 @@ export default function Home() {
           averageRating={currentRating.average}
           totalRatings={currentRating.count}
         />
+
+        {/* Clients Section */}
+        <ClientsSection clients={partnersData.clients} />
         
         {/* Rate Service Section */}
         <RateServiceSection
@@ -203,9 +206,6 @@ export default function Home() {
         <FAQSection faqs={pagesData.home.faq.items} />
       </main>
 
-      {/* Clients Section */}
-        <ClientsSection clients={partnersData.clients} />
-      
       <Footer rating={currentRating} />
       
       {/* CTA Floater */}
