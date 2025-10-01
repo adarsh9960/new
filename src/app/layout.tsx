@@ -217,8 +217,8 @@ export const metadata: Metadata = {
         alt: siteConfig.meta.twitter.title,
       },
     ],
-    creator: "@elitecabmumbai",
-    site: "@elitecabmumbai",
+    creator: "@elitecabsmumbai",
+    site: "@elitecabsmumbai",
   },
   robots: {
     index: true,
