@@ -32,13 +32,6 @@
       "actions": [
         {
           "id": 1,
-          "icon": "Phone",
-          "text": "Call Now",
-          "url": "tel:+917021751691",
-          "color": "green"
-        },
-        {
-          "id": 2,
           "icon": "MessageCircle",
           "text": "Chat on WhatsApp",
           "url": "https://wa.me/917021751691",
