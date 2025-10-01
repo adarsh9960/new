@@ -77,10 +77,10 @@ export default function WhyChooseUsSection({ features }: WhyChooseUsSectionProps
                 <DollarSign className="h-12 w-12 text-green-600" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
-                Affordable Price Guaranteed with Quality Service
+                Transparent pricing with no hidden charges
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Transparent pricing with no hidden charges. Get the best value for premium transportation services.
+                Get the best value for premium transportation services.
               </p>
               
               {/* WhatsApp CTA Buttons */}
