@@ -75,7 +75,12 @@ export default function ServicesGrid({ services }: ServicesGridProps) {
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {service.description}
                 </p>
-                <FancyButton className="w-full">
+                <FancyButton className="w-full"
+  onClick={() => {
+    const whatsappNumber = "+917021751691";
+    const message = encodeURIComponent("Hi, I want to book your service.");
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+  }}>
                   Book Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </FancyButton>
