@@ -197,12 +197,12 @@ export default function CTAFloater() {
           <Button
             onClick={handleBookingClick}
             size="lg"
-            className="bg-blue-500 hover:bg-blue-600 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 p-0 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 border-2 border-white/20 group relative overflow-hidden animate-slide-up"
+            className="bg-green-500 hover:bg-green-600 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 p-0 shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 border-2 border-white/20 group relative overflow-hidden animate-slide-up"
             aria-label="Book Now"
             style={{ animationDelay: '200ms' }}
           >
             {/* Animated background */}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             
             {/* Icon */}
             <CalendarIcon className="h-5 w-5 sm:h-6 sm:w-6 relative z-10 group-hover:rotate-12 transition-transform duration-300" />
@@ -247,11 +247,11 @@ export default function CTAFloater() {
       <Button
         onClick={toggleExpanded}
         size="lg"
-        className="bg-blue-500 hover:bg-blue-600 text-white rounded-full w-14 h-14 sm:w-16 sm:h-16 p-0 shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300 border-2 border-white/30 relative overflow-hidden group animate-popup"
+        className="bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 sm:w-16 sm:h-16 p-0 shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300 border-2 border-white/30 relative overflow-hidden group animate-popup"
         aria-label={isExpanded ? "Close actions" : "Quick actions"}
       >
         {/* Animated background effect */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         
         {/* Pulsing ring effect */}
         <div className="absolute inset-0 rounded-full bg-blue-400 animate-ping opacity-30"></div>
