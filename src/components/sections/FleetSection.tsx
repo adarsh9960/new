@@ -62,7 +62,11 @@ export default function FleetSection({ categories }: FleetSectionProps) {
                     </div>
                   ))}
                 </div>
-                <FancyButton className="w-full">
+                <FancyButton className="w-full" onClick={() => {
+    const whatsappNumber = "+917021751691";
+    const message = encodeURIComponent("Hi, I want to book your service.");
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+  }}>
                   View Details
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </FancyButton>
@@ -114,7 +118,11 @@ export default function FleetSection({ categories }: FleetSectionProps) {
                         </div>
                       ))}
                     </div>
-                    <FancyButton className="w-full">
+                    <FancyButton className="w-full" onClick={() => {
+    const whatsappNumber = "+917021751691";
+    const message = encodeURIComponent("Hi, i want to view your fleet.");
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
+  }}>
                       View Details
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </FancyButton>
