@@ -55,13 +55,6 @@
       "image": "https://imgd.aeplcdn.com/664x374/n/x3u8kfb_1821057.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
       "description": "premium vehicles offering superior comfort and advanced features for discerning travelers.",
       "features": ["Premium Sound System", "Climate Control", "Privacy Glass", "Reclining Seats"]
-    },
-    {
-      "id": 9,
-      "title": "Bus",
-      "image": "https://www.shutterstock.com/image-illustration/image-bus-isolated-on-white-600nw-2578467983.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
-      "description": "Spacious buses for group travel, corporate events, and special occasions. Comfortable seating for large groups.",
-      "features": ["20-50 Seater", "Air Conditioning", "PA System", "Luggage Space"]
     }
   ]
 }
