@@ -208,7 +208,7 @@ export default function CTAFloater() {
             <CalendarIcon className="h-5 w-5 sm:h-6 sm:w-6 relative z-10 group-hover:rotate-12 transition-transform duration-300" />
             
             {/* Ripple effect */}
-            <div className="absolute inset-0 rounded-full bg-blue-300 scale-0 group-hover:scale-150 opacity-0 group-hover:opacity-30 transition-all duration-500"></div>
+            <div className="absolute inset-0 rounded-full bg-green-300 scale-0 group-hover:scale-150 opacity-0 group-hover:opacity-30 transition-all duration-500"></div>
             
             {/* Tooltip */}
             <div className="absolute right-full mr-2 sm:mr-3 top-1/2 transform -translate-y-1/2 px-2 sm:px-3 py-1 bg-gray-800 text-white text-xs sm:text-sm rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none shadow-lg">
